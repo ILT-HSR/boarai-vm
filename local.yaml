@@ -1,0 +1,25 @@
+core:
+  name: robodev
+  user: hsr
+  password: asimov
+disks:
+  main:
+    size: 21G
+    partitions:
+      swap:
+        filesystem: swap
+        mount_point: SWAP
+        mount_options: defaults
+        size: 1G
+      root:
+        filesystem: ext4
+        mount_point: ROOT
+        mount_options: rw,noatime,nodiratime,data=ordered,discard
+        size: REMAINING
+packages:
+  official:
+    - libpgm
+    - openssh
+  aur:
+    - gazebo
+    - visual-studio-code-insiders

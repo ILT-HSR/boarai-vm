@@ -1,0 +1,5 @@
+[packages]
+hsr-vm-builder = {editable = true,git = "ssh://git@gitlab.dev.ifs.hsr.ch:45022/ifs/linux-vm-builder.git"}
+
+[requires]
+python_version = "3.7"
