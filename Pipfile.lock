@@ -1,11 +1,11 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "375b76d9023b00b0454827800e4310fe14e21f7bba0b5de7bd1dc86b0b2a421e"
+            "sha256": "3cfb2d1ebc7dd92cd5da37c8e1ba988ff25ea4dbd9dc7f05901eea20f4cfe85e"
         },
         "pipfile-spec": 6,
         "requires": {
-            "python_version": "3.7"
+            "python_version": "3.8"
         },
         "sources": [
             {
@@ -19,7 +19,7 @@
         "hsr-vm-builder": {
             "editable": true,
             "git": "ssh://git@gitlab.dev.ifs.hsr.ch:45022/ifs/linux-vm-builder.git",
-            "ref": "4bf310bd981d7b1011bdf739259a6ccf3abb853f"
+            "ref": "2340027107c1de5745d40c3879cd72ebcef9e636"
         },
         "lxml": {
             "hashes": [

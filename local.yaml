@@ -4,7 +4,7 @@ core:
   password: asimov
 disks:
   main:
-    size: 21G
+    size: 10G
     partitions:
       swap:
         filesystem: swap
@@ -16,10 +16,15 @@ disks:
         mount_point: ROOT
         mount_options: rw,noatime,nodiratime,data=ordered,discard
         size: REMAINING
+        script:
+          - sudo systemctl enable ros2-daemon.service
+          - sudo systemctl enable sshd.service
+          - sudo ldconfig
 packages:
   official:
-    - libpgm
     - openssh
+    - ros2
+    - clang
+    - tinc
   aur:
-    - gazebo
     - visual-studio-code-insiders

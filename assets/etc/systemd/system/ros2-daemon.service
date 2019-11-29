@@ -1,0 +1,12 @@
+[Unit]
+Description=ROS2 System Daemon
+
+[Service]
+EnvironmentFile=/etc/default/ros2
+Type=simple
+ExecStart=/usr/bin/bash -c 'source /opt/ros2/setup.bash && ros2 daemon start && while true; do sleep 3600; done'
+User=1000
+
+[Install]
+WantedBy=multi-user.target
+
