@@ -23,8 +23,8 @@ disks:
 packages:
   official:
     - openssh
-    - ros2
     - clang
     - tinc
   aur:
+    - ros2
     - visual-studio-code-insiders
