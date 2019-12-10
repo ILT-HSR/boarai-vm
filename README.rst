@@ -107,7 +107,7 @@ repository. You can use the commands shown below to achive both tasks:
    $ mkdir ~/code
    $ git clone git@github.com:ILT-HSR/boarai-firmware.git code/firmware
 
-During clone process you may need to confirm the authenticity of github.com. Do this by entering `yes` and hit return.
+During clone process you may need to confirm the authenticity of github.com. Do this by entering *yes* and hit return.
 
 Building the Code
 -----------------
