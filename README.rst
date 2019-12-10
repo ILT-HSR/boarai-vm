@@ -137,7 +137,7 @@ IDE Setup
 The virtual machine provides you with an installation of *Visual Studio Code
 Insiders*. The firmware repository includes configuration files to make the
 use of VSCode easier. If you closed the old terminal instance, open a new one
-and change your working directory the your clone of the firmware repository.
+and change your working directory to your clone of the firmware repository.
 From there, use the following command to start VSCode in your clone:
 
 .. code-block::
