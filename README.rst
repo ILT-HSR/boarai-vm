@@ -65,7 +65,7 @@ never share your **private** key with anyone!
 You will then need to log in to your github account using a webbrowser. The
 virtual machine provides you with a simple integrated browser, but you might
 want to use an external browser on your host system. When you have logged in to
-your account, click the avatar in the upper left corner
+your account, click the avatar in the upper right corner.
 
 .. image:: doc/github-avatar.png
    :scale: 100%
@@ -106,6 +106,8 @@ repository. You can use the commands shown below to achive both tasks:
 
    $ mkdir ~/code
    $ git clone git@github.com:ILT-HSR/boarai-firmware.git code/firmware
+
+During clone process you may need to confirm the authenticity of github.com. Do this by entering `yes` and hit return.
 
 Building the Code
 -----------------
