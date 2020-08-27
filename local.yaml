@@ -22,8 +22,10 @@ disks:
           - sudo ldconfig
 packages:
   official:
-    - openssh
     - clang
+    - gpsd
+    - i2c-tools
+    - openssh
     - tinc
   aur:
     - ros2
