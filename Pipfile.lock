@@ -19,7 +19,7 @@
         "hsr-vm-builder": {
             "editable": true,
             "git": "ssh://git@gitlab.dev.ifs.hsr.ch:45022/ifs/linux-vm-builder.git",
-            "ref": "2340027107c1de5745d40c3879cd72ebcef9e636"
+            "ref": "c36502ecbff2e735b0bfd11cfbe88dd5a1077f3d"
         },
         "lxml": {
             "hashes": [
