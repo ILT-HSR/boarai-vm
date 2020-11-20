@@ -9,6 +9,19 @@ pre-installed, most notably:
 - ROS2
 - Visual Studio Code Insiders
 
+IMPORTANT: Update ROS2 Repository Settings
+==========================================
+
+If you are using an older build of the VM, you will probably need to update the
+ROS2 repository configuration. Replace the current **[ros2]** entry in
+**/etc/pacman.conf** by this one:
+
+.. code-block::
+
+   [ros2]
+   Server = https://arch.arknet.ch/ros2
+   SigLevel = Never
+
 Getting Started
 ===============
 
