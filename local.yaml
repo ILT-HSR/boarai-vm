@@ -22,10 +22,13 @@ packages:
     - gpsd
     - i2c-tools
     - openssh
+    - open-vm-tools
     - tinc
   aur:
+    - conan
     - ros2
-    - visual-studio-code-insiders
+    - visual-studio-code-bin
+    - xpadneo-dkms
 scripts:
   ENABLE_ROS2_SERVICE:
     - sudo systemctl enable ros2-daemon.service
