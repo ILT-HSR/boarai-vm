@@ -22,7 +22,6 @@ packages:
     - gpsd
     - i2c-tools
     - openssh
-    - open-vm-tools
     - tinc
   aur:
     - conan
